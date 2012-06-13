@@ -1,6 +1,6 @@
 Name:           spice-protocol
-Version:        0.10.1
-Release:        %mkrel 1
+Version:        0.10.3
+Release:        1
 Summary:        Spice protocol header files
 Group:          System/Libraries
 # Main headers are BSD, controller / foreign menu are LGPL, macros.h is GPL?
