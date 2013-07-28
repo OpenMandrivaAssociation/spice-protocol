@@ -1,2 +1,4 @@
+removed_sources:
+  spice-protocol-0.12.5.tar.bz2: b374fb5d00ca2218ebbad1f894244e53458b69cf
 sources:
-  "spice-protocol-0.12.5.tar.bz2": b374fb5d00ca2218ebbad1f894244e53458b69cf
+  spice-protocol-0.12.6.tar.bz2: d5f5dff2f5f6ba0691043283434eda82af053116
