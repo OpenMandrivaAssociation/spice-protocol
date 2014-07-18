@@ -7,6 +7,7 @@ Group:          System/Libraries
 License:        BSD and LGPLv2+ and GPLv2+
 URL:            http://www.spice-space.org/
 Source0:        http://www.spice-space.org/download/releases/%{name}-%{version}.tar.bz2
+Source100: %{name}.rpmlintrc
 BuildArch:      noarch
 
 %description
