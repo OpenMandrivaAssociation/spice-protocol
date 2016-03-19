@@ -1,14 +1,14 @@
-Name:           spice-protocol
-Version:        0.12.7
-Release:        3
-Summary:        Spice protocol header files
-Group:          System/Libraries
+Name:		spice-protocol
+Version:	0.12.10
+Release:	1
+Summary:	Spice protocol header files
+Group:		System/Libraries
 # Main headers are BSD, controller / foreign menu are LGPL, macros.h is GPL?
-License:        BSD and LGPLv2+ and GPLv2+
-URL:            http://www.spice-space.org/
-Source0:        http://www.spice-space.org/download/releases/%{name}-%{version}.tar.bz2
-Source100: %{name}.rpmlintrc
-BuildArch:      noarch
+License:	BSD and LGPLv2+ and GPLv2+
+URL:		http://www.spice-space.org/
+Source0:	http://www.spice-space.org/download/releases/%{name}-%{version}.tar.bz2
+Source100:	%{name}.rpmlintrc
+BuildArch:	noarch
 
 %description
 Header files describing the spice protocol
@@ -18,7 +18,7 @@ and the para-virtual graphics card QXL.
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
