@@ -1,5 +1,7 @@
+%define _disable_rebuild_configure 1
+
 Name:		spice-protocol
-Version:	0.12.10
+Version:	0.12.12
 Release:	1
 Summary:	Spice protocol header files
 Group:		System/Libraries
