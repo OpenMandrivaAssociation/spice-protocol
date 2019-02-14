@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   spice-protocol-0.12.14.tar.bz2: 7c28a17a11d5c4ccd93fcae959a5f7ef2ee19ba7
+sources:
+  spice-protocol-0.12.15.tar.bz2: 362f630ff5bccb6621e345c41f43a079d1fd4fd6

@@ -1,8 +1,8 @@
 %define _disable_rebuild_configure 1
 
 Name:		spice-protocol
-Version:	0.12.14
-Release:	2
+Version:	0.12.15
+Release:	1
 Summary:	Spice protocol header files
 Group:		System/Libraries
 # Main headers are BSD, controller / foreign menu are LGPL, macros.h is GPL?
