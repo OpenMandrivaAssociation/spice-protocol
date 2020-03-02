@@ -1,0 +1,33 @@
+From 41973d6df464db0d128ba2d272c305143d73f57a Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Marc-Andr=C3=A9=20Lureau?= <marcandre.lureau@redhat.com>
+Date: Fri, 22 Mar 2019 14:56:47 +0100
+Subject: [PATCH 2/3] vdagent: introduce
+ VD_AGENT_CAP_CLIPBOARD_NO_RELEASE_ON_REGRAB
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+This capability means the peer will not send a release event between
+two subsequent grabs. This helps with interaction issues with
+clipboard managers which can be worked around by time-based filters at
+this point. With this capability, there is no need for such filter.
+
+Signed-off-by: Marc-André Lureau <marcandre.lureau@redhat.com>
+---
+ spice/vd_agent.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/spice/vd_agent.h b/spice/vd_agent.h
+index e4e00a8..ad61339 100644
+--- a/spice/vd_agent.h
++++ b/spice/vd_agent.h
+@@ -309,6 +309,7 @@ enum {
+     VD_AGENT_CAP_FILE_XFER_DISABLED,
+     VD_AGENT_CAP_FILE_XFER_DETAILED_ERRORS,
+     VD_AGENT_CAP_GRAPHICS_DEVICE_INFO,
++    VD_AGENT_CAP_CLIPBOARD_NO_RELEASE_ON_REGRAB,
+     VD_AGENT_END_CAP,
+ };
+ 
+-- 
+2.23.0
