@@ -11,6 +11,7 @@ URL:		http://www.spice-space.org/
 Source0:	http://www.spice-space.org/download/releases/%{name}-%{version}.tar.xz
 Source100:	%{name}.rpmlintrc
 BuildArch:	noarch
+BuildRequires:	meson
 
 ###########################################################################
 # Import cross patches spice-gtk, spice-protocol and spice-vdagent (angry)#
@@ -24,11 +25,11 @@ and the para-virtual graphics card QXL.
 %autosetup -p1
 
 %build
-%configure
-%make_build
+%meson
+%meson_build
 
 %install
-%make_install
+%meson_install
 
 %files
 %doc COPYING CHANGELOG.md
