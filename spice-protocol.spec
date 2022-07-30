@@ -1,14 +1,14 @@
 %define _disable_rebuild_configure 1
 
 Name:		spice-protocol
-Version:	0.14.3
+Version:	0.14.4
 Release:	1
 Summary:	Spice protocol header files
 Group:		System/Libraries
 # Main headers are BSD, controller / foreign menu are LGPL, macros.h is GPL?
 License:	BSD and LGPLv2+ and GPLv2+
 URL:		http://www.spice-space.org/
-Source0:	http://www.spice-space.org/download/releases/%{name}-%{version}.tar.gz
+Source0:	http://www.spice-space.org/download/releases/%{name}-%{version}.tar.xz
 Source100:	%{name}.rpmlintrc
 BuildArch:	noarch
 BuildRequires:	meson
