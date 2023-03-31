@@ -2,7 +2,7 @@
 
 Name:		spice-protocol
 Version:	0.14.4
-Release:	1
+Release:	2
 Summary:	Spice protocol header files
 Group:		System/Libraries
 # Main headers are BSD, controller / foreign menu are LGPL, macros.h is GPL?
