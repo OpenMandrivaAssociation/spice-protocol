@@ -7,7 +7,7 @@ Summary:	Spice protocol header files
 Group:		System/Libraries
 # Main headers are BSD, controller / foreign menu are LGPL, macros.h is GPL?
 License:	BSD and LGPLv2+ and GPLv2+
-URL:		http://www.spice-space.org/
+URL:		https://www.spice-space.org/
 Source0:	http://www.spice-space.org/download/releases/%{name}-%{version}.tar.xz
 Source100:	%{name}.rpmlintrc
 BuildArch:	noarch
